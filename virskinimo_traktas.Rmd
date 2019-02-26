@@ -1,0 +1,11 @@
+# Virškinimo sistema
+
+Šiame skyriuje dėmesys bus skiriamas tik žmogaus virškinimo sistemai. Kitaip skyrius būtų pernelyg ilgas - virškinimo sistemos gyvūnų karalystėje yra labai įdomios, pradedant [vabzdžiais ir *Wolbachia*bakterijomis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3873267/) ir [baigiant žarnyno sąveika su bakteriofagais](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5553654/). Tyrimai su mikrobiota ir virškinimo traktu yra bene patys karščiausi tyrimų objektai šiuo metu ir ko gero išliks artimiausią dešimtmetį.
+
+## Virškinimo trakto struktūra
+
+## Kepenys
+
+Kepenys yra parenchiminis organas, kuris turi kapsulę ir atlieka labai daug funkcijų. Evoliucijos eigoje kepenys atsirado kaip organas, filtruojantis medžiagas, absorbuotas virškinimo metu. Iš tikrųjų be kepenų (pavyzdžiui, kepenų cirozės, kuomet kepenys yra peraugusios jungiamuoju audiniu) žmogus apsinuodija azoto turinčiomis medžiagomis, ką jau kalbėti apie amoniaką, kuris susidaro amino rūgščių apykaitos metu. Kepenys įprastai detoksifikuoja medžiagas sujungdamos jas su kitomis molekulėmis, pavyzdžiui, amoniaką sujungus su anglies dioksidu organizmas pagamina šlapalą, kurį pašalina per inkstus. Didelė įvairovė vaistų yra biotransformuojami prie jų prijungus papildomas šonines (pavyzdžiui, hidroksil, karboksi arba glutationo) šonines grupes.
+
+Be kenksmingų medžiagų biotransformacijos, kepenys taip pat gamina kraujo baltymus, atsakingus už onkotinio slėgio palaikymą ir kraujo krešėjimą, kaupia vitaminą A ir E, išskiria bilirubiną kaip tulžies rūgštį į virškinimo traktą, ir taip pat turi arsenalą makrofagų (Kupferio ląstelių), kurios monitoruoja kraujotaką.
