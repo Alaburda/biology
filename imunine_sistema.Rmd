@@ -1,0 +1,10 @@
+# Imuninė sistema
+
+## Skiepai
+
+Be to, jog skiepai suteikia imunitetą skiepo gavėjui, jos turi lygiai taip pat svarbų poveikį stabdydamos infekcijos sukelėją tarp žmonių[^1]. Jeigu kas nors suserga gripu, susirgęs žmogus gali apkrėsti aplinkui tik tuos, kurie nėra pasiskiepiję nuo gripo. Atitinkamai, jeigu aplinkui tokį žmogų visi yra pasiskiepiję, gripas negalės plisti tarp žmonių. Tai vadinama populiaciniu imunitetu ("herd immunity") - nors pačių skiepai populiacinis imunitetas pakeisti negali, tačiau tai apsaugo žmones, kurie įprastai negalėtų pasiskiepyti. Seni žmonės, naujagimiai, pacientai su compromised imunine sistema (dėl ŽIV, pašalintos blužnies ar chemoterapijos) ir sunkiai sergantys pacientai, kurie visi įprastai negalėtų būti paskiepyti, tokiu būdu yra apsaugomi nuo užkrėčiamų ligų. Būtent dėl to ligoninės darbuotojams, kurių imuninė sistema yra patyrusi visko, rekomenduojama skiepytis kasmet nuo gripo.
+
+https://upload.wikimedia.org/wikipedia/commons/f/f5/Herd_immunity.svg
+
+
+[^1]: Tiesa, populiacinis imunitetas nepadeda apsisaugoti nuo ligų, kuriomis galima užsikrėsti iš aplinkos. Pavyzdžiui, stablige galima užsikrėsti *C. tetani* sporoms patekus į atvirą žaizdą.

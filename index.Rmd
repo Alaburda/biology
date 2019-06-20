@@ -1,5 +1,5 @@
 --- 
-title: "Olimpiadinė biologija"
+title: "Olimpiadinės biologijos gidas"
 author: "Paulius Alaburda"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -14,16 +14,39 @@ description: "Elektroninė knyga pasiruošti biologijos olimpiadai."
 
 Knyga yra nuolatos atnaujinama. Tai nėra galutinis produktas. Laukite naujienų!
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
-
-
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+
+## Turinys
+
+* Augalai
+  * Augalų struktūra ir augimas
+  * Medžiagų pernaša augaluose
+  * Augalų dauginimasis
+  * Augalų hormonai
+* Ląstelės biologija
+  * Mikroskopija
+  * Ląstelės struktūra
+  * Ląstelės funkcijos
+  * Funkcinis ir struktūrinis ląstelių santykis
+  * Ląstelės membrana
+  * Ląstelės metabolizmas
+* Biochemija
+  * Fermentų kenetika
+  * Makromolekulės
+* Gyvūnai
+* Bakterijos
+* Grybai
+* Archėjos
+* Pirmuonys
+  
+  
+  
+  
+  
+  
+  
