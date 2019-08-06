@@ -8,6 +8,14 @@
 
 Išskyrus burną, visa virškinimo sistema remiasi bendra taisykle: virškinamojo trakto spindį iškloja gleivinė, po kuria yra kapiliarais ir jungiamuoju audiniu išraizgytas pogleivis. Pogleivį supa du lygiųjų raumenų sluoksniai - žiedinis ir išilginis. Raumeninį sluoksnį dengia seroza, kuri atlieka dengiamąją funkciją. Jeigu paimtume bet kurį segmentą - ar tai būtų skrandis, plonoji ar storoji žarna - visur rastume tokią pačią struktūrą.
 
+
+```{r my-fig, fig.cap="fig caption"}
+
+knitr::include_graphics("static/virskinimo_traktas/gut_cross_section.PNG")
+
+```
+
+
 ![](/static/virskinimo_traktas/gut_cross_section.png)
 
 Kiekvienas sluoksnis turi skirtingą funkciją:
