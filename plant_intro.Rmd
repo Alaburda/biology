@@ -17,7 +17,7 @@ Skiriasi nuo eukariotinės gyvūno ląstelės šiais bruožais:
 
 ## Plazmodezmos
 
-```{r}
+```{r, out.width = "500px"}
 
 knitr::include_graphics("static/augalai/augalo_dalys.png")
 

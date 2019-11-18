@@ -8,7 +8,13 @@ Neuroplastiškumas yra idėja, jog mūsų centinė nervinė sistema gali augti i
 
 Tik vėliau, ketvirtajame dešimtmetyje, Theodore Schwann ir Matthias Schleiden išvystė ląstelių teoriją. Nervinis audinys tuo metu buvo per smulkus, jog galėtume atsakyti, ar jis sudarytas iš ląstelių, todėl atsirado dvi stovyklos: neuronistai, manantys, jog nervinis audinys sudarytas iš individualių neuronų, ir retikulistai, manantis, jog tai yra vienas vientisas audinys. Tik XIX a. devintajame dešimtmetyje Santiago Ramon y Cajal naudodamas naujus dažymo būdus atrado, jog smegenys sudarytos iš atskirų neuronų. Šis atradimas davė pagrindą neuromokslams kaip atskirai šakai.
 
-![Cajal nupiešti smegenėlių vaizdai.](https://upload.wikimedia.org/wikipedia/commons/6/6f/CajalCerebellum.jpg)
+```{r, out.width="500px"}
+
+knitr::include_graphics("static/cns/CajalCerebellum.jpg")
+
+```
+
+
 
 Cajal tyrimai davė pagrindą ne tik neuronams, bet ir santykiams tarp jų. Sudėtingos neuronų struktūros ir glaudūs ryšiai tarp ataugų suformavo idėją, jog neuronai tarpusavyje siunčia signalus per sinapses[n2] - specializuotas vietas neuronuose, kuriose vieno neurono elektrinis signalas yra perduodamas kitam neuronui. Cajal manymu, mokymasis ir darbas skatina naujų dendritų ir aksonų augimą. Deja, ši idėją buvo greitai atmesta. Kadangi smegenų masė ir tūris išlieka panašūs žmogui subrendus, sunku tikėti, jog smegenys gali keistis. Iš tikrųjų XX a. pradžioje ši nuomonė išplito ir buvo ilgai manoma, jog smegenys nesikeičia įgyjant naujas patirtis.
 
@@ -21,5 +27,5 @@ Centrinė nervų sistema gali būti padalinama į dvi dalis: galvos ir nugaros s
 
 
 
-[n1]: Neuroplasticity, MIT Press (2016)
+[n1]: Neuroplasticity, MIT Press, 2016 m.
 [n2]: Terminas sinapsė atsiras tik vėliau, 1897 m.
