@@ -17,6 +17,13 @@ Skiriasi nuo eukariotinės gyvūno ląstelės šiais bruožais:
 
 ## Plazmodezmos
 
+```{r}
+
+knitr::include_graphics("static/augalai/augalo_dalys.png")
+
+```
+
+
 ## Ląstelės sienelė
 
 ## Plastidės
