@@ -20,5 +20,49 @@ Aišku, kai kurie gyvūnai (pvz, vabzdžiai) turi **atviras** kraujotakos sistem
 
 Jeigu žengtume žingsnį atgal link arterijų, susidurtume su keliomis problemomis. Kadangi arterijos šakojasi į kapiliarus, kapiliaruose slėgis yra labai mažas. Tačiau arterijose kraujo yra tiek, tačiau mažesniame skerspjūvio plote, todėl kraujo slėgis arterijoms yra žymiai didesnis. Vien endotelio neužtektų atlaikyti didesnį slėgį, todėl arterijos turi 2 papildomus sluoksnius. Viena, aplinkui endotelį yra lygiųjų raumenų sluoksnis, kuris įsitempęs gali padidinti kraujagyslės tvirtumą. Tai duoda papildomą pranašumą - esant poreikiui, kraujagyslės gali susitraukti arba atsipalaiduoti. Jeigu arterijos negalėtų prisitaikyti, organizmas nesugebėtų stumti kraujo per kapiliarus esant kraujo trūkumui. 
 
-## 
+## Arterijos
+
+Aorta skiriasi nuo likusių arterijų tuo, jog ji turi atremti didžiausią kraujo spaudimą visame organizme. Dėl šios savybės jos lygiųjų raumenų sluoksnio sudėtyje yra daugiau elastinių skaidulų. Elastinės skaidulos, priešingai negu kolagenas, suteikia elastingumo: kai kairiojo skilvelio išstumtas kraujas patenka į aortą, aorta refleksiškai susitraukia atgal dėl elastinių skaidulų. Kadangi atgal į širdį kraujas negali tekėti dėl aortinio vožtuvo, jis yra stumiamas pirmyn aortos kilpa ir nusileidžiančiąja aortos dalimi.
+
+## Širdies sandara
+
+Žmogaus širdis turi keturias kameras:
+
+1. Kairįjį skilvelį - priima kraują iš kairiojo prieširdžio, išstumia į aortą
+2. Kairįjį prieširdį - priima kraują iš plautinės venos, išstumia į kairįjį skilvelį
+3. Dešinįjį skilvelį - priima kraują iš dešiniojo skilvelio, išstumia į plautinę arteriją
+4. Dešinįjį prieširdį - priima kraują iš viršutinės ir apatinės tuščiosios venos, išstumia į dešinįjį skilvelį
+
+Tarp prieširdžių yra tarpprieširdinė pertvara, o skilvelių - tarpskilvelinė pertvara.
+
+Širdis sudaryta iš kelių audinių:
+
+1. Širdies skersaruožių raumens
+2. Laidžiųjų kardiomiocitų
+3. Endotelio
+4. Jungiamojo audinio
+5. Serozos?
+
+### Širdies skersaruožiai kardiomiocitai
+
+Kardiomiocitai yra panašūs į griaučių skersaruožius miocitus - jie turi tokį patį aktino ir miozino susitraukimo mechanizmą, todėl pats ląstelės veikimas išlieka toks pats. Širdies raumuo skiriasi tuo, jog širdies raumens ląstelės yra išsišakojusios - viena ląstelė gali jungtis su keliomis kitomis ląstelėmis (griaučių raumuo jungiasi tik su viena ląstele viename gale). Tai duoda audiniui daugiau patvarumo, nes tai padidina paviršiaus plotą, bet taip pat tarp širdies kardiomiocitų yra plyšinių jungčių. Vienos kameros širdies raumuo turi susitraukti visas vienu metu, todėl būtina, jog ląstelės susitrauktų vienu metu. Per **plyšines jungtis** juda natris ir kalcis, dėl kurio nėra būtina depoliarizuoti kiekvieną kardiomiocitą - depoliarizacijos banga juda iš vienos ląstelės į kitą ir taip koordinuoja jų susitraukimą[cv1].
+
+Kardiomiocitai taip pat turi dezmosomas, dėl kurių raumuo įgauna daugiau tvirtumo - kadangi raumuo turi dirbti nuolatiniame susitraukimo ir atsipalaidavimo cikle, labai svarbu, jog audinys išliktų vientisas.
+
+
+
+[^cv1]: Lygieji raumenys taip pat turi plyšines jungtis tarpusavyje, dėl to lygusis raumuo taip pat gali koordinuotai susitraukti.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
