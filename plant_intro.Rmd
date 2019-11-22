@@ -1,10 +1,35 @@
-# Augalų įžanga
+# Augalai
+
+## Įžanga
+
+Augalai buvo mano nemėgstamiausia tema ruošiantis olimpiadoms, bet dabar manau visiškai priešingai. Augalai yra itin svarbūs mums - dėl bulvių maro Airijoje mirė penktadalis gyventojų, EUropoje įvyko ekonominė krizė dėl tulpių gumbų, o šafranas - žiedo piestelės - yra brangiausias prieskonis pasaulyje. Jeigu ne grūdai, ko gero nebūtume turėję feodalizmo ir nebūtume tyrinėję genetikos! Pažindamas augalus gali pažinti ne tik savo mitybą, bet ir žmogaus istoriją.
 
 ## Ląstelė
 
+
+```{r, out.width = "500px"}
+
+knitr::include_graphics("static/augalai/plant_cell.png")
+knitr::include_graphics("static/augalai/augalo_dalys.png")
+
+knitr::include_graphics("static/augalai/dvi_vienskilciai.jpg")
+knitr::include_graphics("static/augalai/gaubtasekliai.png")
+knitr::include_graphics("static/augalai/klasifikacija.jpg")
+knitr::include_graphics("static/augalai/lapo_gyslotumas.png")
+knitr::include_graphics("static/augalai/medz_judejimas.png")
+knitr::include_graphics("static/augalai/papartunai.jpg")
+knitr::include_graphics("static/augalai/plikasekliai.png")
+knitr::include_graphics("static/augalai/samanunai.jpg")
+knitr::include_graphics("static/augalai/steles_1.png")
+knitr::include_graphics("static/augalai/steles_2.jpg")
+knitr::include_graphics("static/augalai/ziedynu_tipai.jpg")
+
+
+```
+
 Skiriasi nuo eukariotinės gyvūno ląstelės šiais bruožais:
 
-1. Chloroplastai
+1. Chloroplastai - išsidėsto ląstelės kraštuose
 2. Centrinė vakuolė
 3. Plazmodezmos[^1] jungia ląsteles
 4. Ląstelės sienelė
