@@ -43,22 +43,3 @@ knitr::write_bib(c(
 * Grybai
 * Archėjos
 * Pirmuonys
-
-## TODO
-
-1. Ištraukti skaidrių iliustracijas
-2. Su line art sukurti schemas mokymuisi ir kartojimuisi
-3. Pilvakojų praktikinis
-4. Nuorodos
-5. Iš skyriaus turi sugebėti atsirasti skaidrės arba paruoštukė
-6. Sudėtingi klausimai diskusijai ir sprendimui
-7. Nuorodos į kitus skyrius (kas nors neaišku - click to read up)
-8. pdf capacity
-9. collapse: subsection
-10. {fold} for neat things
-11. Plasticizers - difunduoja, nes nėra polimerizuoti ir yra hidrofobiški, sutrikdo hormonų signalo perdavimą (praktiniai darbai?)  
-  
-  
-  
-  
-  
