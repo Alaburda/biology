@@ -131,4 +131,3 @@ knitr::include_graphics("static/augalai/steles_2.jpg")
 knitr::include_graphics("static/augalai/ziedynu_tipai.jpg")
 
 ```
-

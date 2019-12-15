@@ -1,0 +1,16 @@
+# Neuroplastiškumas
+
+Praeitame skyriuje matėme, kaip prisiminimai gali formuotis ir kuriose smegenų dalyse tai vyksta. Ar atmintis plastiška? Akivaizdu, jog atmintis yra lanksti - senus faktus sunku prisiminti ir dažnai pasikartojančius faktus galime lengvai atgaminti. Bet ar mūsų elgsena yra lanksti? Jeigu esame įpratę kramtyti nagus, ar galime pakeisti šį įprotį?
+
+## Elgsena
+
+O jeigu šnekame apie įpročius, kuriuos žmogus supranta, bet jais remiasi? Tarkime, žmogus bijo per susirinkimus, nes jis išmoko, jog pasisakydamas jis išprovokuos žmonių pyktį?
+
+Tyrimais yra žinoma, jog baltymų slopikliu anizomicinu galima slopinti žiurkių emocinius prisiminimus. Žiurkėms galima išvystyti fobiją asocijuojant stimulą (triukšmą, šviesą) su elektrošoku. Bet žiurkės, kurioms skirtas anizomicinas, neformuoja fobijų. Dėl to žinome, jog prisiminimams yra svarbi baltymų sintezė.
+
+2000 m. tyrimas taip pat rado, jog fobijas galima pašalinti, jeigu anizomicinas yra skirtas ir fobijos stimulas yra labai stiprus (pavyzdžiui, žiurkė yra stimuliuojama triukšmu ilgą laiką). Tyrimas perša išvadą, jog atmintis gali "atlipti" ir smegenims reikia sintetinti baltymus jų palaikymui.
+
+Thus the idea of memory reconsolidation: you form a consolidated memory, but every time you activate it, you need to reconsolidate it. If the reconsolidation fails, you lose the memory, or you get a slightly different memory, or something like that. If you could disrupt emotional memories like “speaking out makes you hated” while they’re still reconsolidating, maybe you could do something about this.
+
+Deja, baltymų sintezės slopikliai yra nuodingi žmogui. Žinant, jog atmintį galima keisti, tyrėjai ieškojo kitų, mažiau pavojingų, būdų tai padaryti.
+

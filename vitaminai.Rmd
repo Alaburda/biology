@@ -1,0 +1,48 @@
+# Vitaminai
+
+Vitaminai yra tirpūs vandenyje arba tirpūs riebaluose. Riebaluose tirpūs vitaminai yra transportuojami chilomikronuose. Chilomikronai turi vitamino A, D, E ir K, nes jie yra riebaluose tirpūs vitaminai. Būdami tirpūs tik riebaluose, jie dažniau yra kaupiami riebaliniame audinyje. Dėl to jų toksiškumo rizika yra didesnė - vandenyje tirpių riebalų perteklių mes tiesiog pašaliname su šlapimu. Visi vandenyje tirpūs vitaminai yra fermentų kofaktoriai.
+
+## Riebaluoe tirpūs vitaminai
+
+### Vitaminas A
+
+Svarbus vaikams augimo metu, nes iš vitamino A sintetinamas rodopsinas akyje. Be vitamino A vystosi prasta rega tamsoje - *vištakumas*. Taip pat esant trūkumui vystosi plokščiųjų odos ląstelių metaplazija - vitaminas A leidžia jos išvengti. Vitamino A perteklius retas, bet pavyzdys - medžiotojas, kuris valgo meškų kepenis. Tikrai nereikia žinoti, kodėl simptomai atsiranda, bet vitaminas A taip pat yra kaupiamas kepenyse ir dėl vitamino A pertekliaus (valgant meškų kepenis) gali atsirasti kepenų nepakankamumas.
+
+### Vitaminas K
+
+Didelę dalį pagamina žarnyno bakterijos, bet galima gauti ir su maistu. Naujagimiai itin jautrus vitamino K trūkumui, nes vos gimę turi 3 dienų atsargas, negauna papildomo vitamino K su pienu, o bakterijos dar nėra kolonizavusios žarnyno ir negali gaminti vitamino K. Dėl to kūdikiai turi didesnę riziką susirgti hemoragine liga (didelė kraujavimo rizika). Vitamino K funkcija - aktyvuoti krešėjimo faktorius kraujyje. Be vitamino K krešėjimo faktoriai negali inicijuoti krešėjimo kaskados ir žmogaus kraujas pradeda silpnai krešėti.
+
+Naujagimiai iki penkių dienų nuo gimimo turi vitamino K stygių, bet yra ir kitų priežasčių:
+
+1. Senyvi žmonės vartoja varfariną, kuris konkuruoja su vitaminu K ir gali sukelti kraujavimą (į vidaus organus, dantenas, melynės).
+2. Vaikai gali rasti žiurknuodžių, kuriuose įprastai yra varfarino 
+3. Plataus spektro antibiotikai - anaerobinės bakterijos buvo paveiktos, nebegamina vitamino K ir žmogui pradeda atsirasti kraujosruvos.
+4. Bloga mityba - vitaminas K yra riebaluose tirpus, tačiau jo būna daug augaluose. Kepkite daržoves riebaluose!
+
+### Vitaminas D
+
+LABAI svarbus vitaminas, sintezė vyksta odoje, kai mes gauname saulės šviesos. Vitaminas D gaminamas iš cholesterolio. Cholesterolis reikalingas keturiems dalykams:
+
+1. Ląstelių membranoms
+2. Tūlžies druskoms ir rūgštims
+3. Steroidų sintezėje
+4. 7-dehidrocholesterolis odoje yra fotokonvertuojamas į vitaminą D
+
+Saulė pagrindinis šaltinis, dėl to svarbus vaikams būti laike ir gauti saulės šviesos. Ką daro vitaminas D? Reabsorbuojama kalcį ir fosforą iš tuščiosios žarnos. Kalcis ir fosforas keliaus į kaulinį audinį, kur jie mineralizuos kaulą. Jeigu negali mineralizuoti kaulo, vaikams atsiranda rachitas (minkšti kaulai deformuojasi dėl svorio), o suaugusiems osteomaliacija (osteo - kaulas, maliacija - minkštėjimas). 
+
+Per daug vitamino D neprivers kaulų intensyviai mineralizuotis, bet *hiperkalcemija* gali paskatinti inkstų akmenų susidarymą. 
+
+
+### Vitaminas E
+
+Palaiko ląstelių membranas ir stabdo fosfolipazės A atliekamą lipidų peroksidaciją. Skamba sudėtingai? Nėra didelio poreikio išmokti, nes stygius yra retas, o perteklius slopins vitamino K gamybą, kuris reikalingas krešumui. 
+
+
+## Vandenyje tirpūs vitaminai
+
+### Vitaminas C
+
+Piratai savo laiku puikiai patyrė vitamino C trūkumą, nes nevartojo citrusinių vaisių. Vitamino C yra kofaktorius kolageno ketvirtinės struktūros sudaryme. Kai nėra ketvirtinės struktūros tarp 3 kolageno molekulių, jo struktūra neįgauna reikalingo tvirtumo. Dėl to gleivinės, oda gali trūkinėti - nėra kolageno, kuris atlaikytų tempimą ir pažeidimus. Rezultatas - skorbutas!
+
+
+
