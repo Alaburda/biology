@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 11 Įvairybės | Olimpiadinės biologijos gidas</title>
+  <title>Chapter 9 UPGMA | Olimpiadinės biologijos gidas</title>
   <meta name="description" content="Elektroninė knyga pasiruošti biologijos olimpiadai." />
   <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 11 Įvairybės | Olimpiadinės biologijos gidas" />
+  <meta property="og:title" content="Chapter 9 UPGMA | Olimpiadinės biologijos gidas" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 11 Įvairybės | Olimpiadinės biologijos gidas" />
+  <meta name="twitter:title" content="Chapter 9 UPGMA | Olimpiadinės biologijos gidas" />
   
   <meta name="twitter:description" content="Elektroninė knyga pasiruošti biologijos olimpiadai." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="skiepai.html"/>
-<link rel="next" href="vitaminai.html"/>
+<link rel="prev" href="augalai.html"/>
+<link rel="next" href="skiepai.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -179,6 +179,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="9" data-path="upgma.html"><a href="upgma.html"><i class="fa fa-check"></i><b>9</b> UPGMA</a><ul>
 <li class="chapter" data-level="9.1" data-path="upgma.html"><a href="upgma.html#pavyzdys"><i class="fa fa-check"></i><b>9.1</b> Pavyzdys</a></li>
+<li class="chapter" data-level="9.2" data-path="upgma.html"><a href="upgma.html#dendrograma"><i class="fa fa-check"></i><b>9.2</b> Dendrograma</a></li>
 </ul></li>
 <li class="chapter" data-level="10" data-path="skiepai.html"><a href="skiepai.html"><i class="fa fa-check"></i><b>10</b> Skiepai</a><ul>
 <li class="chapter" data-level="10.1" data-path="skiepai.html"><a href="skiepai.html#kas-tai"><i class="fa fa-check"></i><b>10.1</b> Kas tai?</a></li>
@@ -225,48 +226,184 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="įvairybės" class="section level1">
-<h1><span class="header-section-number">Chapter 11</span> Įvairybės</h1>
-<div id="deguonis-ir-anglies-dioksidas" class="section level2">
-<h2><span class="header-section-number">11.1</span> Deguonis ir anglies dioksidas</h2>
-<p>Įrodykite arba paneikite teiginį: tai, ką įkvėpiame, pašaliname su šlapimu, o tai, ką suvalgome, iškvėpiame.</p>
-<p>Įkvėptas deguonis organizme yra naudojamas kaip elektronų akceptorius elektronų pernašos grandinėje. Priimdamas elektronus deguonis turi per daug elektronų ir turi prisijungti porą protonų, sudarydamas vandenį. Vandens šiek tiek iškvėpiame, tačiau kiekis yra sąlyginai mažas - didžioji dalis yra pašalinama su šlapimu. Tuo tarpu maistas, kurį suvalgome, daugiausia yra pasiunčiamas į Krebso ciklą, kur vieno ciklo metu yra pašalinamos 2 molekulės anglies dioksido. Nors anglies dioksidas gali sudaryti karbonato joną (HCO3), kuris patenka į nefroną, tačiau jis yra atgal rezorbuojamas. Anglies dioksidas pasišalina iš žmogus organizmą per plaučius. Dėl to, tai, ką suvalgome, pašaliname kvėpuodami, o tai, ką įkvėpiame, pašaliname su šlapimu.</p>
+<div id="upgma" class="section level1">
+<h1><span class="header-section-number">Chapter 9</span> UPGMA</h1>
+<p>Pradėję naudoti DNR ir RNR sekvenavimo technologijas, kartu su morfologinėmis savybėmis pradėjome gretinti ir genetines sekas. Principas toks - kuo DNR tarp dviejų rūšių yra panašesnė, tuo šios rūšys yra artimesnės viena kitai. Lyginti dvi rūšis tarpusavyje yra paprasta - bet priskirti rūšį vienai genčiai arba kitai gali būti sudėtinga. Tam yra skirtas UPGMA metodas, kuris leidžia apskaičiuoti skirtumus tarp rūšių grupių. Geriausia apie jį išmokti remiantis pavyzdžiu.</p>
+<div id="pavyzdys" class="section level2">
+<h2><span class="header-section-number">9.1</span> Pavyzdys</h2>
+<p>Žemiau pavyzdys remiantis JC69 genetinių atstumų matrica, apskaičiuota lyginant 5S ribosominės sekas iš 5 bakterijų (a-e):</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Species</th>
+<th align="right">a</th>
+<th align="right">b</th>
+<th align="right">c</th>
+<th align="right">d</th>
+<th align="right">e</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">a</td>
+<td align="right">0</td>
+<td align="right">17</td>
+<td align="right">21</td>
+<td align="right">31</td>
+<td align="right">23</td>
+</tr>
+<tr class="even">
+<td align="left">b</td>
+<td align="right">17</td>
+<td align="right">0</td>
+<td align="right">30</td>
+<td align="right">34</td>
+<td align="right">21</td>
+</tr>
+<tr class="odd">
+<td align="left">c</td>
+<td align="right">21</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td align="right">28</td>
+<td align="right">39</td>
+</tr>
+<tr class="even">
+<td align="left">d</td>
+<td align="right">31</td>
+<td align="right">34</td>
+<td align="right">28</td>
+<td align="right">0</td>
+<td align="right">43</td>
+</tr>
+<tr class="odd">
+<td align="left">e</td>
+<td align="right">23</td>
+<td align="right">21</td>
+<td align="right">39</td>
+<td align="right">43</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<p>Skaičiai nurodo skirtumus tarp RNR sekų, jeigu jas sugretintume, pavyzdžiui, 17 reiškia, jog tarp rūšies a ir rūšies b 17 bazių porų yra skirtingos. Vizualiai tai atrodytų taip:</p>
+<p>Rūšis a: 5’-C<em>CC</em>UAUAC<em>C</em>CU<em>UU</em>CAU<em>AA</em>CAU<em>C</em>GCAU<em>CGC</em>AUCG<em>UACCGG</em>GA-3’</p>
+<p>Rūšis b: 5’-C<em>GA</em>UAUAC<em>G</em>CU<em>CG</em>CAU<em>CG</em>CAU<em>U</em>GCAU<em>UAA</em>AUCG<em>ACUGUC</em>GA-3’</p>
+<p>Kuo mažesnis skaičius, t.y. bazių porų skirtumas tarp rūšių, tuo rūšys artimesnės. Matricoje viršuje matome, jog a ir b yra panašiausios rūšys tarpusavyje, todėl jas grupuosime kartu (toliau rašysime a ir b kaip (a, b)), o matricą perskaičiuosime.</p>
+<p>Perskaičiuoti matricą turime suskaičiuoti naujus skirtumus. Tai daroma išvedant vidurkį tarp suporuotų rūšių ir visų kitų rūšių. Sugrupavome a ir b, todėl dabar turime išvesti vidutinį atstumą tarp rūšių grupės (a, b) ir rūšies c, d ir e. Atstumas tarp a ir c buvo 21 bazių pora, o tarp b ir c - 30 bazių porų. Vidutinis atstumas yra (21+30)/2 = 25,5 bazių poros. Perskaičiavę visus atstumus, gauname tokią matricą:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Species</th>
+<th align="right">X.a..b.</th>
+<th align="right">c</th>
+<th align="right">d</th>
+<th align="right">e</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(a, b)</td>
+<td align="right">0.0</td>
+<td align="right">25.5</td>
+<td align="right">32.5</td>
+<td align="right">22</td>
+</tr>
+<tr class="even">
+<td align="left">c</td>
+<td align="right">25.5</td>
+<td align="right">0.0</td>
+<td align="right">28.0</td>
+<td align="right">39</td>
+</tr>
+<tr class="odd">
+<td align="left">d</td>
+<td align="right">32.5</td>
+<td align="right">28.0</td>
+<td align="right">0.0</td>
+<td align="right">43</td>
+</tr>
+<tr class="even">
+<td align="left">e</td>
+<td align="right">22.0</td>
+<td align="right">39.0</td>
+<td align="right">43.0</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<p>Mažiausias skirtumas tarp rūšių šiuo atveju yra tarp grupės (a, b) ir e, kurias perrašome kaip ((a, b), e). Jeigu atliekame tą patį veiksmą kaip ir praeitą kartą, gauname tokią matricą:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Species</th>
+<th align="right">X..a..b…e.</th>
+<th align="right">c</th>
+<th align="right">d</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(a, b), e</td>
+<td align="right">0</td>
+<td align="right">30</td>
+<td align="right">36</td>
+</tr>
+<tr class="even">
+<td align="left">c</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td align="right">28</td>
+</tr>
+<tr class="odd">
+<td align="left">d</td>
+<td align="right">36</td>
+<td align="right">28</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<p>Šį kartą c ir d tarpusavyje yra panašesnės rūšys negu rūšių grupė ((a, b), e), todėl jas turime sugrupuoti kartu į rūšių grupę (c, d).</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Species</th>
+<th align="right">X..a..b…e.</th>
+<th align="right">X.c..d.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">(a, b), e</td>
+<td align="right">0</td>
+<td align="right">33</td>
+</tr>
+<tr class="even">
+<td align="left">(c, d)</td>
+<td align="right">33</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<p>Kadangi nebeturime pasirinkimų, sujungiame šias dvi rūšių grupes į vieną <em>dendrogramą</em>. Šis medis atrodo taip:</p>
+<p><img src="static/genetics/upgma.png" width="251" /></p>
+<p>O kaip gauti skirtingi atstumai ir ką reiškia tie skaičiai prie išsišakojimų?</p>
 </div>
-<div id="vaistų-skyrimas-į-veną" class="section level2">
-<h2><span class="header-section-number">11.2</span> Vaistų skyrimas į veną</h2>
-<p>Viena iš priežasčių vaistai skiriami į veną yra gana akivaizdi - priešingai negu per burną, vaistas iš karto atsiduria kraujotakoje ir gali keliauti iki savo taikinio. Kita svarbi priežastis - žarnynas nebūtinai yra dėkinga vieta vaistams.</p>
-<p>Pavyzdžiui, insulinas turi būti leidžiamas į poodį arba į kraujotaką, nes jis yra peptidas, didelis peptidas (5,8 kDa). Bet koks didelis peptidas galimai bus suvirškintas - trečiame dešimtmetyje H.W. Dudley parodė, jog pepsinas ir tripsinas <em>pilnai</em> suskaido insuliną.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;static/varia/insulin_1.jpg&quot;</span>)</a></code></pre></div>
-<p><img src="static/varia/insulin_1.jpg" width="902" /></p>
-<p>Tai nėra išskirtinė insulino savybė. Žemiau lentelėje yra peptidiniai vaistai - nei vienas nėra skiriamas per burną:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" title="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;static/varia/insulin_2.png&quot;</span>)</a></code></pre></div>
-<p><img src="static/varia/insulin_2.png" width="1158" /></p>
-<p>Grįžtant prie insulino, jis kraujyje yra suskaidomas kraujo fermentų (<a href="https://www.ncbi.nlm.nih.gov/pubmed/4935637">taip, tokie yra</a>) ir turi 10 minučių puslaikį. Tai sukelia problemų dėl vartojimo pro burną - vos insulinas šiaip ne taip patektų į kraujotaką, jis praktiškai iš karto būtų suskaidytas kraujyje. Ir kai vaistų veikimas yra priklausomas nuo pakankamos koncentracijos, tai sudaro dar vieną kliūtį vartojimui pro burną.</p>
-<p>Antra problema - absorbcija. Žarnynas gali įsisavinti baltymus iki 700 daltonų. Bet kas didesnio patenka į kraujotaką sunkiai:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" title="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;static/varia/insulin_3.jpg&quot;</span>)</a></code></pre></div>
-<p><img src="static/varia/insulin_3.jpg" width="904" /></p>
-<p>Tas pats galioja ir kitiems baltymams - dėl to mes pro burną neskiriame albumino arba inerferono<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>:</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb12-1" title="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;static/varia/insulin_4.jpg&quot;</span>)</a></code></pre></div>
-<p><img src="static/varia/insulin_4.jpg" width="820" /></p>
-<p>Galiausiai, insulinas hidrofiliškumas ne tik slopina patekima iš žarnyno į kraują, bet taip pat palengvina patekimą pro glomerulę į nefroną. Ar kas nors buvo padaryta atrasti sprendimą? Daug žmonių kasdien turi leistis insuliną, bet iki šiol bandyti sprendimai nedavė rezultatų:</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" title="1">knitr<span class="op">::</span><span class="kw">include_graphics</span>(<span class="st">&quot;static/varia/insulin_5.jpg&quot;</span>)</a></code></pre></div>
-<p><img src="static/varia/insulin_5.jpg" width="1056" /></p>
+<div id="dendrograma" class="section level2">
+<h2><span class="header-section-number">9.2</span> Dendrograma</h2>
+<p>Pradinis skirtumas tarp a ir b buvo 17 - įprastai negalime pasakyti, kaip dvi rūšis divergavo, todėl mes laikomės prielaidos, jog rūšyje a ir rūšyje b įvyko vidutiniškai toks pats kiekis mutacijų, t.y. 8,5 mutacijų įvyko bendrame protėvyje, dėl kurių atsirado rūšys a, ir 8,5 mutacijų, dėl kurių atsirado rūšis b. Realybėje viskas gali būti kitaip ir ši taisyklė skirta supaprastinti dendrogramos kūrimą - viena rūšis galėjo mutuoti daugiau negu kita, arba vienos rūšies mutacijos galėjo būti grįžtamos į tokias pačias kaip a ir b protėvio. Taigi, atstumas iki bendro a ir b protėvio yra 8,5 bazių poros.</p>
+<p>Toliau atstumas tarp (a, b) ir e buvo 22. Šis atstumas nebuvo nuo e iki a ir protėvio, todėl turime nutiesti 11 bazių atstumo liniją nuo e iki bendro (a, b) ir e protėvio. Kadangi a ir b atstumas iki bendro protėvio buvo 8,5, atstumas nuo (a, b) protėvio iki ((a, b), e) protėvio yra 11-8,5 = 2,5.</p>
+<p>Toliau turėjome c ir d, kurių atstumas iki bendro protėvio buvo 14 bazių porų, o galiausiai tarp dviejų rūšių grupių skirtumas buvo 33 bazių poros. Tai yra svarbu, nes vadinasi galutinis protėvis <strong>r</strong> yra nutolęs per 16,5 bazių nuo visų rūšių. Vadinasi, atstumas tarp c ir d mazgo <strong>w</strong> buvo 16,5-14=2,5 bazių, o atstumas nuo kitos grupės 16,5-11=5,5 bazių.</p>
 
 </div>
-</div>
-<div class="footnotes">
-<hr />
-<ol start="2">
-<li id="fn2"><p>Antibiotikas ciklosporinas yra išimtis - jis yra ciklinis peptidas, kurio žarnyno fermentai nesuskaido.<a href="-vairyb-s.html#fnref2" class="footnote-back">↩</a></p></li>
-</ol>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="skiepai.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="vitaminai.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="augalai.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="skiepai.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

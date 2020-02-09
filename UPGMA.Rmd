@@ -1,0 +1,92 @@
+# UPGMA
+
+Pradėję naudoti DNR ir RNR sekvenavimo technologijas, kartu su morfologinėmis savybėmis pradėjome gretinti ir genetines sekas. Principas toks - kuo DNR tarp dviejų rūšių yra panašesnė, tuo šios rūšys yra artimesnės viena kitai. Lyginti dvi rūšis tarpusavyje yra paprasta - bet priskirti rūšį vienai genčiai arba kitai gali būti sudėtinga. Tam yra skirtas UPGMA metodas, kuris leidžia apskaičiuoti skirtumus tarp rūšių grupių. Geriausia apie jį išmokti remiantis pavyzdžiu.
+
+## Pavyzdys
+
+Žemiau pavyzdys remiantis JC69 genetinių atstumų matrica, apskaičiuota lyginant 5S ribosominės sekas iš 5 bakterijų (a-e):
+
+```{r, echo = FALSE}
+
+tbl <- data.frame(Species = letters[1:5],
+                    a = c(0,17,21,31,23),
+                    b = c(17L, 0L, 30L, 34L, 21L),
+                    c = c(21L, 30L, 0L, 28L, 39L),
+                    d = c(31L, 34L, 28L, 0L, 43L),
+                    e = c(23L, 21L, 39L, 43L, 0L))
+
+knitr::kable(tbl)
+
+```
+
+Skaičiai nurodo skirtumus tarp RNR sekų, jeigu jas sugretintume, pavyzdžiui, 17 reiškia, jog tarp rūšies a ir rūšies b 17 bazių porų yra skirtingos. Vizualiai tai atrodytų taip:
+
+Rūšis a: 5'-C*CC*UAUAC*C*CU*UU*CAU*AA*CAU*C*GCAU*CGC*AUCG*UACCGG*GA-3'
+
+Rūšis b: 5'-C*GA*UAUAC*G*CU*CG*CAU*CG*CAU*U*GCAU*UAA*AUCG*ACUGUC*GA-3'
+
+Kuo mažesnis skaičius, t.y. bazių porų skirtumas tarp rūšių, tuo rūšys artimesnės. Matricoje viršuje matome, jog a ir b yra panašiausios rūšys tarpusavyje, todėl jas grupuosime kartu (toliau rašysime a ir b kaip (a, b)), o matricą perskaičiuosime.
+
+Perskaičiuoti matricą turime suskaičiuoti naujus skirtumus. Tai daroma išvedant vidurkį tarp suporuotų rūšių ir visų kitų rūšių. Sugrupavome a ir b, todėl dabar turime išvesti vidutinį atstumą tarp rūšių grupės (a, b) ir rūšies c, d ir e. Atstumas tarp a ir c buvo 21 bazių pora, o tarp b ir c - 30 bazių porų. Vidutinis atstumas yra (21+30)/2 = 25,5 bazių poros. Perskaičiavę visus atstumus, gauname tokią matricą:
+
+```{r, echo = FALSE}
+
+tbl <- data.frame(Species = c("(a, b)","c","d","e"),
+                    "(a, b)" = c(0, 25.5, 32.5, 22),
+                    c = c(25.5, 0, 28, 39),
+                    d = c(32.5, 28, 0, 43),
+                    e = c(22L, 39L, 43L, 0L))
+
+knitr::kable(tbl)
+
+```
+
+Mažiausias skirtumas tarp rūšių šiuo atveju yra tarp grupės (a, b) ir e, kurias perrašome kaip ((a, b), e). Jeigu atliekame tą patį veiksmą kaip ir praeitą kartą, gauname tokią matricą:
+
+
+```{r, echo = FALSE}
+
+tbl <- data.frame(Species = c("(a, b), e","c","d"),
+                    "((a, b), e)" = c(0L, 30L, 36L),
+                    c = c(30L, 0L, 28L),
+                    d = c(36L, 28L, 0L))
+
+knitr::kable(tbl)
+
+```
+
+Šį kartą c ir d tarpusavyje yra panašesnės rūšys negu rūšių grupė ((a, b), e), todėl jas turime sugrupuoti kartu į rūšių grupę (c, d).
+
+
+```{r, echo = FALSE}
+
+tbl <- data.frame(Species = c("(a, b), e","(c, d)"),
+                    "((a, b), e)" = c(0L, 33L),
+                    "(c, d)" = c(33L, 0L))
+
+knitr::kable(tbl)
+
+```
+
+Kadangi nebeturime pasirinkimų, sujungiame šias dvi rūšių grupes į vieną *dendrogramą*. Šis medis atrodo taip:
+
+```{r, echo = FALSE}
+
+knitr::include_graphics("static/genetics/upgma.png")
+
+```
+
+O kaip gauti skirtingi atstumai ir ką reiškia tie skaičiai prie išsišakojimų?
+
+## Dendrograma
+
+Pradinis skirtumas tarp a ir b buvo 17 - įprastai negalime pasakyti, kaip dvi rūšis divergavo, todėl mes laikomės prielaidos, jog rūšyje a ir rūšyje b įvyko vidutiniškai toks pats kiekis mutacijų, t.y. 8,5 mutacijų įvyko bendrame protėvyje, dėl kurių atsirado rūšys a, ir 8,5 mutacijų, dėl kurių atsirado rūšis b. Realybėje viskas gali būti kitaip ir ši taisyklė skirta supaprastinti dendrogramos kūrimą - viena rūšis galėjo mutuoti daugiau negu kita, arba vienos rūšies mutacijos galėjo būti grįžtamos į tokias pačias kaip a ir b protėvio. Taigi, atstumas iki bendro a ir b protėvio yra 8,5 bazių poros.
+
+Toliau atstumas tarp (a, b) ir e buvo 22. Šis atstumas nebuvo nuo e iki a ir protėvio, todėl turime nutiesti 11 bazių atstumo liniją nuo e iki bendro (a, b) ir e protėvio. Kadangi a ir b atstumas iki bendro protėvio buvo 8,5, atstumas nuo (a, b) protėvio iki ((a, b), e) protėvio yra 11-8,5 = 2,5.
+
+Toliau turėjome c ir d, kurių atstumas iki bendro protėvio buvo 14 bazių porų, o galiausiai tarp dviejų rūšių grupių skirtumas buvo 33 bazių poros. Tai yra svarbu, nes vadinasi galutinis protėvis **r** yra nutolęs per 16,5 bazių nuo visų rūšių. Vadinasi, atstumas tarp c ir d mazgo **w** buvo 16,5-14=2,5 bazių, o atstumas nuo kitos grupės 16,5-11=5,5 bazių.
+
+
+
+
+
