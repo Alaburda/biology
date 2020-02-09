@@ -6,7 +6,10 @@ Pradėję naudoti DNR ir RNR sekvenavimo technologijas, kartu su morfologinėmis
 
 Žemiau pavyzdys remiantis JC69 genetinių atstumų matrica, apskaičiuota lyginant 5S ribosominės sekas iš 5 bakterijų (a-e):
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+
+library(tidyverse)
+
 
 tbl <- data.frame(Species = letters[1:5],
                     a = c(0,17,21,31,23),
@@ -29,10 +32,10 @@ Kuo mažesnis skaičius, t.y. bazių porų skirtumas tarp rūšių, tuo rūšys 
 
 Perskaičiuoti matricą turime suskaičiuoti naujus skirtumus. Tai daroma išvedant vidurkį tarp suporuotų rūšių ir visų kitų rūšių. Sugrupavome a ir b, todėl dabar turime išvesti vidutinį atstumą tarp rūšių grupės (a, b) ir rūšies c, d ir e. Atstumas tarp a ir c buvo 21 bazių pora, o tarp b ir c - 30 bazių porų. Vidutinis atstumas yra (21+30)/2 = 25,5 bazių poros. Perskaičiavę visus atstumus, gauname tokią matricą:
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, results = 'asis'}
 
-tbl <- data.frame(Species = c("(a, b)","c","d","e"),
-                    "(a, b)" = c(0, 25.5, 32.5, 22),
+tbl <- tibble(Species = c("(a, b)","c","d","e"),
+                    `(a, b)` = c(0, 25.5, 32.5, 22),
                     c = c(25.5, 0, 28, 39),
                     d = c(32.5, 28, 0, 43),
                     e = c(22L, 39L, 43L, 0L))
@@ -44,9 +47,9 @@ knitr::kable(tbl)
 Mažiausias skirtumas tarp rūšių šiuo atveju yra tarp grupės (a, b) ir e, kurias perrašome kaip ((a, b), e). Jeigu atliekame tą patį veiksmą kaip ir praeitą kartą, gauname tokią matricą:
 
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, results = 'asis'}
 
-tbl <- data.frame(Species = c("(a, b), e","c","d"),
+tbl <- tibble(Species = c("(a, b), e","c","d"),
                     "((a, b), e)" = c(0L, 30L, 36L),
                     c = c(30L, 0L, 28L),
                     d = c(36L, 28L, 0L))
@@ -60,7 +63,7 @@ knitr::kable(tbl)
 
 ```{r, echo = FALSE}
 
-tbl <- data.frame(Species = c("(a, b), e","(c, d)"),
+tbl <- tibble(Species = c("(a, b), e","(c, d)"),
                     "((a, b), e)" = c(0L, 33L),
                     "(c, d)" = c(33L, 0L))
 
@@ -70,7 +73,7 @@ knitr::kable(tbl)
 
 Kadangi nebeturime pasirinkimų, sujungiame šias dvi rūšių grupes į vieną *dendrogramą*. Šis medis atrodo taip:
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, fig.width=800}
 
 knitr::include_graphics("static/genetics/upgma.png")
 
