@@ -67,7 +67,7 @@ Pagal sienelės išsivystymą galima išskirti tris ląstelės sienelės tipus:
 
 ```{r, out.width = "500px", echo = FALSE}
 
-knitr::include_graphics("static/augalai/plastids")
+knitr::include_graphics("static/augalai/plastids.png")
 
 ```
 
