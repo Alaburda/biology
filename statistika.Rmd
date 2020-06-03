@@ -1,0 +1,18 @@
+# Statistika
+
+Remtis šitais: 
+
+http://www.stat.columbia.edu/~gelman/bag-of-tricks/contents.pdf
+https://twitter.com/jenniferdoleac/status/1267112352010420227
+Stats 101 kursu
+Blogpostu apie Chi-kvadrato testą
+
+## Kas yra statistika?
+
+## Kaip rinkti duomenis?
+
+## Aprašomoji statistika
+
+## Statistiniai testai
+
+## Kaip meluoti su statistika?
