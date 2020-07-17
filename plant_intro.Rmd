@@ -112,6 +112,16 @@ Proteinoplastas - kaupia baltymus
 4. Dauginimosi lapai – išdygę nukrenta ir sudygsta ant žemės
 5. Pažiedlapiai – vainiklapių pamaina (puansentija)
 
+## C3, C4 ir CAM augalai
+
+### Kodėl tai svarbu?
+
+Ribos tarp C3 ir C4 augalų nėra tokios griežtos kaip atrodo: kai kurie augalai sugeba pakeisti savo lapų struktūrą iš C3 į C4 ir atvirkščiai. Tai duoda vilties, jog pavyktų rasti genus, kuriuos modifikavus pavyktų kai kuriuos augalus paversti iš C3 į C4. Kaip aptarėme aukščiau, C4 augalai yra atsparesni aukštesnėms temperatūroms. Dar svarbiau, jie reikalauja mažiau vandens. Dėl to, jeigu pavyktų išvesti dabartinių kultūrų C4 ekvivalentus, žemdirbiai galėtų sutaupyti žymiai daugiau vandens ir auginti kultūras ten, kur joms įprastai būdavo per karšta. Genų atradimas smarkiai pagerintų mūsų gyvenimo kokybę ir žemdirbystės galimybes.
+
+Paskutinį dešimtmetį atsirado ne vienas tyrimas apie anglies dioksido koncentracijos kambaryje įtaką žmogaus savijautai. Berkely buvo [pirmieji](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3548274/), kurie nustatė, jog didesnės CO2 koncentracijos blogina protines funkcijas. Rezultatai atitinka [vengrų](https://www.researchgate.net/publication/279567093_Influence_of_carbon-dioxide_pollutant_on_human_well-being_and_work_intensity) ir [Harvardo](https://dash.harvard.edu/bitstream/handle/1/27662232/4892924.pdf?sequence=1) tyrimus. NASA taip pat susidomėjo šia sritimi, nes kosminiuose laivuose nėra daug langų, o reikia daug protinio darbo. Jų [preliminarūs rezultatai](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20160013696.pdf) rodo, jog ko gero didesni CO2 kiekiai aplinkoje sunkina žmogaus gebėjimą dirbti protinį darbą.
+
+Aišku, vienas iš sprendimų yra tiesiog atverti langą ir palikti atviras duris prieš einant miegoti. Ko gero, to turėtų užtekti, jog CO2 kiekiai išliktų žemi. Kitas būdas yra auginti augalus, kurie naudoja CAM metabolizmą. Kadangi CAM augalai vykdo fotosintezę dieną, o naktį vykdo anglies fiksaciją, mums miegant CAM augalai išskiria O2 ir surenka CO2 iš aplinkos. CAM augalai nebūtinai auga tropinėse platumose - tai yra sukulentai. Storlapiai, orchidėjos, kaktusai, uošvės liežuvis. Nežinau, kiek augalų reikėtų, jog jie kartu turėtų poveikį kambario CO2 lygiui, bet kita vertus, juos lengva prižiūrėti ir jie gana #estetiški.
+
 
 ## Iliustracijos
 

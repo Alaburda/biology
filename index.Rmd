@@ -49,3 +49,18 @@ knitr::write_bib(c(
 * Grybai
 * Archėjos
 * Pirmuonys
+
+## Kodėl šita knyga?
+
+Esu stipriai įsitikinęs, jog geriausias būdas ką nors išmokti yra pačiam bandant tai atlikti. Biologija sudėtingas atvejis - kaip paaiškinti žmogaus anatomiją, kai disekcijos salė prieinama tik medicinos studentams? Kaip suprasti PGR, kai tavo mokykloje nėra termociklerio ir reagentų atlikti reakciją? Knyga bando išspręsti tai turiniu, kuris priverčia įsitraukti.
+
+Knygoje yra pateiktos pieštinės/linijinės iliustracijos, kurias būtų galima persipiešti - labai rekomendu tai padaryti. Asmeninis konspektas yra nuostabus įrankis mokymuisi ir pasikartojimui - knyga gali pagelbėti jį susikurti, bet abejoju, jog knyga galėtų būti visiškas pakaitalas asmeniniams užrašams.
+
+Šalia skyriuose yra pateiktos užduotys, susijusios su moksliniais straipsniais. Tai yra proga perskaityti straipsnius, kurie yra aktualūs šiuo metu, ir suprasti jų turinį. Vienas iš biologo - nesvarbu, ar jis dirbtų zoologijoje, mikologijoje ar medicinoje - yra skaityti naujausią literatūrą ir ją suprasti. Biologijos žinios tai padeda padaryti, bet tai lygiai taip pat yra aktyvus procesas, nes straipsnio neužteks įsiminti - jo esmė atsiskleis turint su savimi biologijos žinių bagažą. Moksliniai straipsniai yra iš atviros prieigos žurnalų, todėl jų pdf failai yra laisvai prieinami. 
+
+## Žymenys skyriuose
+
+Kur dėti apibrėžimus arba klinikines koreliacijas? Ar svarbiausius terminus išvesti kaip textbox'ą?
+
+
+

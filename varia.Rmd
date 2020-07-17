@@ -53,3 +53,7 @@ knitr::include_graphics("static/varia/insulin_5.jpg")
 ```
 
 [^var1]: Antibiotikas ciklosporinas yra išimtis - jis yra ciklinis peptidas, kurio žarnyno fermentai nesuskaido.
+
+https://pubmed.ncbi.nlm.nih.gov/32573431/
+
+Neil deGrasse Tyson (teigia)[https://twitter.com/neiltyson/status/1275870809794375682], jog ateivis, kurio DNR nesusijusi su gyvybe žemėje atrodys labiau kitaip negu dvi skirtingiausias rūšys Žemėje. Į ką būtų panašiausias ateivis, atvykęs iš svetimos planetos? Ar jis būtų panašus į gyvūną, kuris egzistuoja Žemėje, ar jis būtų visiškai kitoks negu visi gyvi gyvūnai? Kodėl? https://en.m.wikipedia.org/wiki/Convergent_evolution

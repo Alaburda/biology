@@ -100,11 +100,22 @@ Disulfidiniai tilteliai yra svarbūs ekstraląsteliniams baltymams - aplinka lą
 
 Prionai - tai baltymai, kurie įgijo neteisingą konformaciją, t.y. susilankstė neteisingai. Sąveika su normalia baltymo kopija sukelia tokį patį pokytį tame pačiame pokytį. Tokiu būdu neteisingai susilankstęs baltymas dauginasi ir formuoja baltymų agregatus. Šie agregatai gali sukelti ligas, pavyzdžiui, Creutzfeldt–Jakob ligą, Kuru arba kempinligę galvijuose. Prionai yra stabilūs baltymai, todėl kitas žmogus ar galvijas, suvalgęs baltymą prioną, gali užsikrėsti prionine liga.
 
+## ⚕️ Cistinė fibrozė
+
+## Baltymų pavyzdžiai
+
+Visas šitas skyrius ilgas, tačiau dabar galime paaiškinti bet kokį baltymą iš struktūrinių lygių pusės. Jeigu mus domins konkretus baltymus, galėsime mąstyti apie jo sandarą iš lygių pusės. Kalbėdami apie ląstelės struktūrą, suprasti visus lygmenys nereikia žinoti, nes ląstelėje apie baltymus daugiau galvojame kaip apie funkciją atliekančius vienetus ir jų struktūra yra mažiau svarbi.
+
+Labai geras pavyzdys yra baltymai kanalai. Neuronai turi daug joninių kanalų, pavyzdžiui, įtampa valdomų natrio kanalų. Kanalai baltymai įprastai turi kelis domenus, bet galime susikoncentruoti tik į vieną domeną atsakingą už jonų pernešimą per plazminę membraną, nes domenai funkcijos atžvilgiu yra nepriklausomi. Toks kanalas sudarys daug $\alpha$ spiralių, jog hidrofobinės amino rūgštys būtų nukreiptos į išorę link plazminės membranos, o hidrofilinės amino rūgštys į kanalo vidų, jog sąveikautų su jonais. Iš šių antrinių baltymų struktūrų formuosis tretinė struktūra - pora. Hidrofilinės amino rūgštys viduje kanalo tikėtina, jog jos turės neigiamą krūvį, nes priešingu atveju natris būtų atstumtas teigiamo krūvio. Struktūriškai pora bus specifiška tik natriui, nes tretinė struktūra turi specifinę erdvinę formą, kuri neleidžia kaliui patekti į poros spindį, o kitiems teigiamiems jonams trukdo netinkama forma sąveikauti su glutamo rūgšties liekanomis poros spindyje. Per pirminę struktūrą (amino rūgščių seką), antrinę struktūrą (alfaspirales) ir tretinę struktūrą (porą) sugebėjome paaiškinti baltymo funkciją.
+
+
+
 ## TODO
 
 Use Molecular Biology of the Cell as reference
 Use old protein slides and circa 2012 LitBo material 
 Use Alberts ToC and subchapter titles as prompts for writing
 
-
+https://en.wikipedia.org/wiki/Sodium_channel
+Cystic fibrosis protein mutations
 

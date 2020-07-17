@@ -1,0 +1,29 @@
+# Tyrimų atvejai
+
+## Mutualistinės fiksuojančios bakterijos kukurūzuose
+
+Pilnas šio skyrelio pavadinimas turėtų būtų ilgesnis, nes straipsnis apibūdina kukurūzų ir azotą fiksuojančių bakterijų mutualizmą. Nors apie azotą fiksuojančias bakterijas mokykloje yra užsimenama kalbant apie pupelių kultūras, toks atradimas kukurūzų veislėje yra be galo svarbus žemdirbystėje. Bet ko gero ne ką mažiau svarbesnis yra pats straipsnis, kuriam atsirasti reikėjo 40 metų!
+
+[Straipsnis žurnalo Plos One svetainėje](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2006352) ir [Smithsonian apžvalginis straipsnis](https://www.smithsonianmag.com/science-nature/corn-future-hundreds-years-old-and-makes-its-own-mucus-180969972/)
+
+### Kam reikalingos orinės šaknys?
+
+Kiti augalai orines šaknis naudoja skirtingai. Pavyzdžiui, epifitai – orchidėjos ir kai kurie fikusai – naudoja šaknis kaip atramą. Kitais atvejais orinės šaknys padeda medžiams vykdyti dujų mainus, kai požeminės šaknys yra apsemtos (bukai ir mangrovės). Galiausiai, amalo orinės šaknys yra pritaikytos ne atsiremti į augalą, o jį parazituoti. Bet kukurūzų šaknys nėra apsemtos, o jų orinės šaknys nėra pakankamai didelės, jog galėtų paremti augalą.
+
+Bet orinės šaknys yra mažos tik pas mums įprastas kukurūzų veisles. Sierra Mixe veislė turi žymiai didesnes orines šaknis, sekretuoja gleives, o pati veislė auga nederlingoje žemėje. Kodėl?
+
+![Sierra Mixe šaknys](https://www.ucdavis.edu/sites/default/files/styles/ucdedu_16x9_large/public/aerial-roots-sierra-mixe-corn-uc-davis_0.jpg)
+
+Pasirodo, gleives yra kolonizavusios azotą fiksuojančios bakterijos. Tai yra lengva įrodyti. Sunku įrodyti, jog dėl jų kukurūzų veislė gali augti nederlingoje žemėje. Azotinių trąšų augalas gali gauti iš daug skirtingų šaltinių: dirvos, lietaus, paukščių išmatų, azotą fiksuojančių bakterijų dirvoje ir t.t. O tyrėjai turėjo įrodyti, jog augalų azoto šaltinis yra oras ir niekas kitas. Dėl to tyrimas vyko 40 metų.
+
+### Kaip įrodyti azoto fiksaciją?
+
+Tyrėjai savo straipsnyje naudojo bent septynis skirtingus eksperimentus. Viena, gleivėse būtina rasti bakterijų, kurios galėtų fiksuoti azotą. Antra, būtina rasti bakterijose nitrogenazės (fermento fiksacijai) genų. Trečia, nitrogenazei reikia bedeguonies aplinkos. Bet galiausiai, reikia patikrinti, ar gleivėse esančios bakterijos iš tikrųjų fiksuoja azotą.
+
+Paprasčiausias būdas būtų sušerti bakterijoms molekulinį azotą N2 ir žiūrėti, ar biomasė auga. Bet problema ta, jog atmosferoje yra 79% azoto, todėl atlikus tokį eksperimentą bet kurio tyrėjo veidas persikreiptų svarstant, ar eksperimentas pavyko, ar tiesiog mėgintuvėliai buvo nepakankamai sandarūs.
+
+Kitas, patikimesnis būdas yra bakterijoms šerti ne N2, o acetileną, C2! Nitrogenazės fermentai nėra idealiai specifiški azotui ir suskaido C2 į eteną. Jeigu bakterijos pradeda išskirti eteną, gali būti gana užtikrintas, jog bakterijos turi nitrogenazę.
+
+### Kokie šios veislės minusai?
+
+Problema su Sierra Mixe veisle yra ta, jog ji auga labai lėtai - ji panašesnė į medį negu kultūrinį augalą. Kol įprastos veislės subrandina ausis per 3-4 mėnesius, Sierra Mixe užtrunka 8-9 mėnesius. Viena iš galimybių, kodėl veislė auga lėčiau, yra tai, jog gleivių sintezė reikalauja daug išteklių. Dėl to taip pat tikėtina, jog gleivių savybė buvo išveista iš veislių, jog kukurūzai greičiau augtų. Kaip yra iš tikrųjų? Dar nežinome!
